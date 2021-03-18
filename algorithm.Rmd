@@ -11,7 +11,7 @@ This algorithm rewires a graph while preserving its degree sequence, i.e.,
 each sampled graph's adjacency matrix will have the same rows and columns
 
 
-```{r definition}
+```{r definition-of-the-algorithm}
 # This is a degree-sequence-preserving sampling algorithm
 sample_graph <- function(x, n = 15L * sum(x != 0L)) {
   
