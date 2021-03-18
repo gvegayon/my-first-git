@@ -12,7 +12,7 @@ each sampled graph's adjacency matrix will have the same rows and columns
 
 
 ```{r definition}
-# This is a degree-sequence-preserving sampling algorith
+# This is a degree-sequence-preserving sampling algorithm
 sample_graph <- function(x, n = 15L * sum(x != 0L)) {
   
   # Obtaining the positions of the non-zero elements
